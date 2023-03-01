@@ -5,7 +5,7 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: DevAzure
+  RESOURCE-GROUP: devazure
   LOCATION: francecentral
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 6df396ef-7e2b-4786-841a-00541a2f3f8f
